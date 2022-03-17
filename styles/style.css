@@ -1,0 +1,177 @@
+@import url(fonts.css);
+
+/* ROOT start */
+
+:root {
+    --FontFirst: "AlfaSlabOne";
+    --FontSecond: "BebasNeue";
+    --FontThird: "Oswald";
+    --navbarText: #D4D1C5;
+    --background: #F0EDEE;
+    --textDark: #1C2321;
+    --textLight: #F0EDEE;
+    --green: #07393C;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background: var(--background);
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+
+/* ROOT end */
+/* ==================================== */
+/* HEADER start */
+
+.nav__btn {
+    font-size: 40px;
+    background: none;
+    border: none;
+    color: var(--navbarText);
+    padding: 20px;
+    display: none;
+}
+
+
+.navbar {
+    font-family: var(--FontThird) ;
+    background: var(--green);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__link {
+    font-size: 20px;
+    color: var(--navbarText);
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 500ms;
+    margin-left: 16px;
+}
+
+.navbar__link:hover {
+    color: var(--textLight);
+}
+
+.navbar__logo {
+    font-size: 55px;
+    font-family: var(--FontFirst);
+    color: var(--navbarText);
+}
+
+.navbar__menu {
+    display: flex;
+    justify-content: center;
+}
+
+.contact__logo {
+    font-size: 25px;
+    line-height: 21px;
+    margin-top: 2px;
+    margin-left: 5px;
+    color: var(--navbarText);
+}
+
+.contact__logo:hover {
+    color: var(--textLight);
+}
+
+.header__main {
+    margin-top: 174px;
+    font-family: var(--FontThird);
+    color: var(--textDark);
+}
+
+.main__text_first {
+    font-size: 50px;
+    
+}
+
+.main__text_second {
+    font-size: 29px;
+    margin-bottom: 109px;
+
+}
+
+.about__text {
+    max-width: 550px;
+    font-size: 18px;
+    margin-bottom: 110px;
+}
+
+/* HEADER end */
+/* ==================================== */
+/* FOOTER start */
+
+.footer {
+    background: var(--green);
+    padding-top: 35px;
+}
+
+.footer__name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.footer__copy {
+    font-size: 40px;
+    color: var(--navbarText);
+    margin-right: 16px;
+    margin-bottom: 5px;
+}
+
+.footer__author {
+    font-size: 40px;
+    font-family: var(--FontSecond);
+    color: var(--navbarText);
+}
+
+.footer__links {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.links__inst {
+    font-size: 40px;
+    color: var(--navbarText);
+    margin: 0 16px 30px 16px;
+
+}
+
+.links__tg {
+    font-size: 40px;
+    color: var(--navbarText);
+}
+
+.links__mail {
+    font-size: 40px;
+    color: var(--navbarText);
+}
+
